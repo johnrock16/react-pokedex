@@ -42,7 +42,7 @@ app.get(`/pokemon`, async (req, res) => {
 
 app.get(`/pokemon-species`, async (req, res) => {
     number=req.query.number;
-    const result=await P.resource([`/api/v2/pokemon-species/${number}`])/
+    const result=await P.resource([`/api/v2/pokemon-species/${number}`]);
     res.status(200).send(result[0]);
 });
 
