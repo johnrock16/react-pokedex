@@ -1,0 +1,33 @@
+export const POKEMON_GENERATION = [
+    {name:'First Generation',starts:1,ends:151},
+    {name:'Second Generation',starts:152,ends:251},
+    {name:'Third Generation',starts:252,ends:386},
+    {name:'Fourth Generation',starts:387,ends:494},
+    {name:'Fifth Generation',starts:495,ends:649},
+    {name:'Sixth Generation',starts:650,ends:721},
+    {name:'Seventh Generation',starts:722,ends:809},
+    {name:'Eighth Generation',starts:810,ends:898},
+]
+
+export const POKEMON_TYPES_COLORS = {
+    normal:{background:'#a4acaf',text:'black'},
+    fighting:{background:'#d56723',text:'white'},
+    flying:{background:'#3dc7ef',text:'black'},
+    poison:{background:'#b97fc9',text:'white'},
+    ground:{background:'#ab9842',text:'black'},
+    rock:{background:'#a38c21',text:'white'},
+    bug:{background:'#729f3f',text:'white'},
+    ghost:{background:'#7b62a3',text:'white'},
+    steel:{background:'#9eb7b8',text:'black'},
+    fire:{background:'#fd7d24',text:'white'},
+    water:{background:'#4592c4',text:'white'},
+    grass:{background:'#9bcc50',text:'black'},
+    electric:{background:'#eed535',text:'black'},
+    psychic:{background:'#f366b9',text:'white'},
+    ice:{background:'#51c4e7',text:'black'},
+    dragon:{background:'#8b53cf',text:'white'},
+    dark:{background:'#707070',text:'white'},
+    fairy:{background:'#fdb9e9',text:'black'},
+    unknown:{background:'#a4acaf',text:'white'},
+    shadow:{background:'#707070',text:'white'},
+}
